@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# LangChain / FAISS artifacts
+harrison_vectorstore/
+*.faiss
+*.pkl
+
+# Environment & secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
